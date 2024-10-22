@@ -1,5 +1,6 @@
 import Contact from "./components/Contect/Contect";
 import Experiance from "./components/Experiance/Experiance";
+import Main from "./components/Main/Main";
 import Project from "./components/Project/Project";
 import "./index.css";
 
@@ -9,6 +10,7 @@ function App() {
       {/* <Project /> */}
       {/* <Experiance /> */}
       {/* <Contact/> */}
+      <Main/>
     </div>
   );
 }
