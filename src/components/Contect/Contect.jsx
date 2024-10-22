@@ -5,7 +5,7 @@ import { SiLeetcode } from "react-icons/si";
 
 function Contact() {
   return (
-    <div className="flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-900 text-white py-10 px-6">
+    <div className="flex flex-col justify-center items-center text-white py-10 px-6">
       <h1 className="text-5xl font-bold mb-8 text-center">Get in Touch</h1>
 
       <div className="w-full max-w-6xl flex flex-col lg:flex-row justify-between items-start lg:space-x-16 text-left">

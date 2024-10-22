@@ -3,7 +3,7 @@ import { EXPERIENCES } from '../../constants/index.js'
 
 function Experiance() {
     return (
-        <div className='flex flex-col justify-center items-center bg-gradient-to-b  text-white py-10 px-6'>
+        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-900 text-white py-10 px-6">
             <h1 className='text-5xl font-bold mb-8 text-center'>Experiance</h1>
             <div>
                 {EXPERIENCES.map((experiance, index) => (

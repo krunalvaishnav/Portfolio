@@ -3,7 +3,7 @@ import { PROJECTS } from '../../constants/index.js';
 
 function Project() {
   return (
-    <div className=" flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-900 text-white py-16 px-6">
+    <div >
       <h1 className='text-5xl font-bold mb-8 text-center'>Projects</h1>
       <div>
         {PROJECTS.map((Project, index) => (
