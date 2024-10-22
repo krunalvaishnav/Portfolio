@@ -3,13 +3,13 @@ import { EXPERIENCES } from '../../constants/index.js'
 
 function Experiance() {
     return (
-        <div className='border-b border-neutral-800 pb-4'>
-            <h1 className='my-20 text-center text-4xl'>Experiance</h1>
+        <div className='flex flex-col justify-center items-center bg-gradient-to-b  text-white py-10 px-6'>
+            <h1 className='text-5xl font-bold mb-8 text-center'>Experiance</h1>
             <div>
                 {EXPERIENCES.map((experiance, index) => (
                     <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                         <div className='w-full lg:w-1/4'>
-                            <p className='mb-2 text-sm text-neutral-400'>{experiance.year}</p>
+                            <p className='mb-2 text-1xl text-neutral-400'>{experiance.year}</p>
                         </div>
                         <div className='w-full max-w-xl lg:w-3/4'>
                             <h6 className='mb-2 font-semibold'>

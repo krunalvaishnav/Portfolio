@@ -3,8 +3,8 @@ import { PROJECTS } from '../../constants/index.js';
 
 function Project() {
   return (
-    <div className='border-b border-neutral-800 pb-4'>
-      <h1 className='my-20 text-center text-4xl'>Projects</h1>
+    <div className=" flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-900 text-white py-16 px-6">
+      <h1 className='text-5xl font-bold mb-8 text-center'>Projects</h1>
       <div>
         {PROJECTS.map((Project, index) => (
           <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>

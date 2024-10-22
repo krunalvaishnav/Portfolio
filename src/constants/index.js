@@ -80,7 +80,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Dhoraji, Rajkot, Gujarat 360410 , india",
+  address: "Dhoraji, Rajkot, Gujarat 360410 , India",
   phoneNo: "+91 70******78 ",
   email: "krunalvaishnav2004@gmail.com",
 };
