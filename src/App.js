@@ -7,10 +7,10 @@ import "./index.css";
 function App() {
   return (
     <div className="app-container">
-      {/* <Project /> */}
-      {/* <Experiance /> */}
-      {/* <Contact/> */}
-      <Main/>
+      <Main />
+      <Project />
+      <Experiance />
+      <Contact />
     </div>
   );
 }

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .app-container {
-    background: linear-gradient(360deg, black, rgb(15, 2, 60)); 
+    background-color:  rgb(10, 0, 46); 
     min-height: 100vh;
     color: white;
     padding: 20px;
