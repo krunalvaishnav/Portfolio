@@ -34,6 +34,7 @@ export const PROJECTS = [
     description:
       "Enter your IP address and get detailed information about your location, internet service provider, and more.",
     technologies: ["Reactjs", "Nodejs", "Mongodb", "Expressjs", "Tailwind css"],
+    link:"https://github.com/krunalvaishnav1/IPDO-IP-discovery-and-open-ports-.git"
   },
   {
     title: "Snapbite",
@@ -41,6 +42,7 @@ export const PROJECTS = [
     description:
       " Developed a full-featured food delivery website with product filtering, search, and cart functionality. Integrated secure user authentication, real-time food tracking, and an admin dashboard for managing orders, users and products.",
     technologies: ["Reactjs", "Nodejs", "Mongodb", "Expressjs", "Tailwind css"],
+    link:"https://github.com/krunalvaishnav1/Snapbite.git"
   },
   {
     title: "Blogiverse",
@@ -48,6 +50,7 @@ export const PROJECTS = [
     description:
       "Developed Blogiverse a dynamic blog platform using Node.js, MongoDB, and EJS. Key features include user, authentication, adding and deleting blog posts, and commenting functionality. ",
     technologies: ["Nodejs", "Mongodb", "Expressjs", "Ejs"],
+    link:"https://github.com/krunalvaishnav1/Blogiverse.git"
   },
   {
     title: "Portfolio",
@@ -55,6 +58,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwing css"],
+    link:"https://github.com/krunalvaishnav1/Portfolio.git"
   },
   {
     title: " Bat Blitz - Admin Panel",
@@ -62,6 +66,7 @@ export const PROJECTS = [
     description:
       "Developed a admin Panel that contains dynamic bats listing page facilitating bat management tasks such as type, editing, and deletion, along with detailed bat view options. also Implemented category management functionality, enabling type, editing, and deletion of categories.",
     technologies: ["Angularjs","JavaScript","CSS", "HTML"],
+    link:"https://github.com/krunalvaishnav1/Bat-Blitz---Admin-panel-.git"
   },
   {
     title: "URL-Shortener",
@@ -69,6 +74,7 @@ export const PROJECTS = [
     description:
       "A simple and efficient URL shortener project developed using Node.js for the backend and EJS for the frontend. This application allows users to create shortened versions of long URLs for easier sharing and tracking.",
     technologies: ["Nodejs", "Mongodb", "Expressjs", "Ejs"],
+    link:"https://github.com/krunalvaishnav1/URL-Shortener.git"
   },
   {
     title: "Country-Details",
@@ -76,6 +82,7 @@ export const PROJECTS = [
     description:
       "Designed and implemented a web Page using AngularJS that utilizes a country web API to fetch and display relevant country data, providing users with dynamic and informative content about various countries around the world.",
     technologies: ["Angularjs","JavaScript","CSS", "HTML"],
+    link:"https://github.com/krunalvaishnav1/Country-Details.git"
   },
 ];
 
