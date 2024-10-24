@@ -23,12 +23,18 @@ function Project() {
               {Project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'
+                  className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500'
                 >
                   {tech}
                 </span>
               ))}
-              <a href="{Project.link}">Github Link</a>
+              <a
+                href={Project.link}
+                className='text-blue-300 hover:underline'
+                target='_blank'
+              >
+                Github Link
+              </a>
             </div>
           </div>
         ))}
