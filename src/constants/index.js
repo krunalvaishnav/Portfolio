@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like Reactjs, as well as back-end technologies like Nodejs, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -29,12 +30,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Tulsi Ropes Industry Website",
+    image: project8,
+    description:
+      "Developed a professional website for Tulsi Ropes Industry as a freelance project. The website showcases the company's products, including ropes and packaging materials, and provides a seamless user experience with responsive design and easy navigation. Hosted on Hostinger, it ensures reliable performance and accessibility for potential customers.",
+    technologies: ["React", "JavaScript", "CSS", "HTML"],
+    link: "https://www.tulsiropesindustry.com",
+  },
+  {
     title: "IP Descovery and Open ports",
     image: project1,
     description:
       "Enter your IP address and get detailed information about your location, internet service provider, and more.",
     technologies: ["Reactjs", "Nodejs", "Mongodb", "Expressjs", "Tailwind css"],
-    link:"https://github.com/krunalvaishnav1/IPDO-IP-discovery-and-open-ports-.git"
+    link: "https://github.com/krunalvaishnav1/IPDO-IP-discovery-and-open-ports-.git",
   },
   {
     title: "Snapbite",
@@ -42,7 +51,7 @@ export const PROJECTS = [
     description:
       " Developed a full-featured food delivery website with product filtering, search, and cart functionality. Integrated secure user authentication, real-time food tracking, and an admin dashboard for managing orders, users and products.",
     technologies: ["Reactjs", "Nodejs", "Mongodb", "Expressjs", "Tailwind css"],
-    link:"https://github.com/krunalvaishnav1/Snapbite.git"
+    link: "https://github.com/krunalvaishnav1/Snapbite.git",
   },
   {
     title: "Blogiverse",
@@ -50,7 +59,7 @@ export const PROJECTS = [
     description:
       "Developed Blogiverse a dynamic blog platform using Node.js, MongoDB, and EJS. Key features include user, authentication, adding and deleting blog posts, and commenting functionality. ",
     technologies: ["Nodejs", "Mongodb", "Expressjs", "Ejs"],
-    link:"https://github.com/krunalvaishnav1/Blogiverse.git"
+    link: "https://github.com/krunalvaishnav1/Blogiverse.git",
   },
   {
     title: "Portfolio",
@@ -58,15 +67,23 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwing css"],
-    link:"https://github.com/krunalvaishnav1/Portfolio.git"
+    link: "https://github.com/krunalvaishnav1/Portfolio.git",
+  },
+  {
+    title: "Country-Details",
+    image: project7,
+    description:
+      "Designed and implemented a web Page using AngularJS that utilizes a country web API to fetch and display relevant country data, providing users with dynamic and informative content about various countries around the world.",
+    technologies: ["Angularjs", "JavaScript", "CSS", "HTML"],
+    link: "https://github.com/krunalvaishnav1/Country-Details.git",
   },
   {
     title: " Bat Blitz - Admin Panel",
     image: project5,
     description:
       "Developed a admin Panel that contains dynamic bats listing page facilitating bat management tasks such as type, editing, and deletion, along with detailed bat view options. also Implemented category management functionality, enabling type, editing, and deletion of categories.",
-    technologies: ["Angularjs","JavaScript","CSS", "HTML"],
-    link:"https://github.com/krunalvaishnav1/Bat-Blitz---Admin-panel-.git"
+    technologies: ["Angularjs", "JavaScript", "CSS", "HTML"],
+    link: "https://github.com/krunalvaishnav1/Bat-Blitz---Admin-panel-.git",
   },
   {
     title: "URL-Shortener",
@@ -74,20 +91,12 @@ export const PROJECTS = [
     description:
       "A simple and efficient URL shortener project developed using Node.js for the backend and EJS for the frontend. This application allows users to create shortened versions of long URLs for easier sharing and tracking.",
     technologies: ["Nodejs", "Mongodb", "Expressjs", "Ejs"],
-    link:"https://github.com/krunalvaishnav1/URL-Shortener.git"
-  },
-  {
-    title: "Country-Details",
-    image: project7,
-    description:
-      "Designed and implemented a web Page using AngularJS that utilizes a country web API to fetch and display relevant country data, providing users with dynamic and informative content about various countries around the world.",
-    technologies: ["Angularjs","JavaScript","CSS", "HTML"],
-    link:"https://github.com/krunalvaishnav1/Country-Details.git"
+    link: "https://github.com/krunalvaishnav1/URL-Shortener.git",
   },
 ];
 
 export const CONTACT = {
   address: "Dhoraji, Rajkot, Gujarat 360410 , India",
-  phoneNo: "+91 70******78 ",
+  phoneNo: "+91 7043754778 ",
   email: "krunalvaishnav2004@gmail.com",
 };
