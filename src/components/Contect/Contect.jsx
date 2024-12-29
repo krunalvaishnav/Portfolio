@@ -18,24 +18,29 @@ function Contact() {
       </p>
 
       {/* Contact Icons and Details */}
-      <div className="flex gap-8 justify-center items-center max-w-4xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center items-center max-w-4xl mx-auto">
         {/* Email */}
-        <div className="flex flex-col items-center space-y-2 ">
+        <div className="flex flex-col items-center space-y-2 text-center">
           <FaEnvelope className="text-blue-500 text-4xl" />
           <p className="text-sm font-medium text-yellow-400">EMAIL</p>
           <a
             href={`mailto:${CONTACT.email}`}
-            className=" text-gray-200 hover:text-blue-500 transition"
+            className="text-gray-200 hover:text-blue-500 transition"
           >
             {CONTACT.email}
           </a>
         </div>
 
         {/* Phone */}
-        <div className="flex flex-col items-center space-y-2">
+        <div className="flex flex-col items-center space-y-2 text-center">
           <FaPhone className="text-green-500 text-4xl" />
           <p className="text-sm font-medium text-yellow-400">PHONE</p>
-          <p className="hover:text-blue-500 transition">{CONTACT.phoneNo}</p>
+          <a
+            href="tel:+917043744778"
+            className="text-gray-200 hover:text-blue-500 transition"
+          >
+            {CONTACT.phoneNo}
+          </a>
         </div>
       </div>
 
