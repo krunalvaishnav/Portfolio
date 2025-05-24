@@ -4,6 +4,7 @@ import Main from "./components/Main/Main";
 import Project from "./components/Project/Project";
 import Skills from "./components/Skills/Skills";
 import "./index.css";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Project />
       <Experiance />
       <Contact />
+      <Analytics />
     </div>
   );
 }

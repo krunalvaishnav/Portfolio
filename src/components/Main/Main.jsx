@@ -2,6 +2,7 @@ import React from "react";
 import profilepic from "../../assets/profile-pic.png";
 import cv from "../../assets/Krunal Vaishnav.pdf";
 
+
 function Main() {
   return (
     <div className="flex flex-col justify-center items-center text-blue-200 py-10 px-6">
