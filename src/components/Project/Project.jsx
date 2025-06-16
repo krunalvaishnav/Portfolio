@@ -3,36 +3,41 @@ import { PROJECTS } from "../../constants/index.js";
 
 function Project() {
   return (
-    <div className="mt-8 ml-5 mr-10 text-wrap">
-      <h1 className="text-5xl font-bold mb-8 text-center">Projects</h1>
+    <div className="bg-[#0a002e] min-h-screen overflow-x-hidden px-4 sm:px-4 lg:px-8 pt-10 pb-20">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 text-center text-white">
+        Projects
+      </h1>
+
       <div>
         {PROJECTS.map((Project, index) => (
           <React.Fragment key={index}>
             <div
-              className="mb-12 flex flex-wrap lg:justify-center items-center rounded-lg p-6 shadow-lg hover:shadow-2xl hover:shadow-gray-700 transition-shadow"
+              className=" sm:mb-10 flex flex-col lg:flex-row items-center lg:justify-between rounded-xl p-3 sm:p-8 bg-[#1b1b3a] shadow-lg border border-[#1c2a48] hover:border-[#2b5292] hover:bg-[#111e37] transition duration-300 overflow-hidden"
             >
               {/* Project Image */}
-              <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+              <div className="w-full max-w-md mb-5 lg:mb-0">
                 <img
                   src={Project.image}
-                  width={200}
-                  height={200}
                   alt={Project.title}
-                  className="mb-6 rounded-lg border-4 border-lime-400 mx-auto transition-transform transform hover:scale-105"
+                  className="w-full h-auto object-cover rounded-lg hover:scale-105 transition-transform duration-300 shadow-md"
                 />
               </div>
 
               {/* Project Details */}
-              <div className="w-full sm:w-1/2 md:w-2/3 lg:w-3/4 px-4">
-                <h6 className="mb-2 text-2xl font-semibold">{Project.title}</h6>
-                <p className="mb-4 text-neutral-400 leading-relaxed">{Project.description}</p>
+              <div className="w-full lg:pl-8 text-center lg:text-left">
+               <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-blue-200 mb-3">
+                  {Project.title}
+                </h2>
+                 <p className="text-base sm:text-lg text-neutral-400 leading-relaxed mb-4 px-1 sm:px-0">
+                  {Project.description}
+                </p>
 
                 {/* Technologies */}
-                <div className="flex flex-wrap mb-4">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-4">
                   {Project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="mr-2 mb-2 inline-block rounded-full bg-neutral-900 px-3 py-1 text-sm font-medium text-purple-500 shadow-sm hover:bg-purple-500 hover:text-white transition-colors"
+                      className="rounded-full bg-neutral-900 px-3 py-1 text-xs sm:text-sm md:text-base font-medium text-purple-400 hover:bg-purple-500 hover:text-white transition-colors"
                     >
                       {tech}
                     </span>
@@ -40,29 +45,22 @@ function Project() {
                 </div>
 
                 {/* Project Link */}
-                {Project.title === "Tulsi Ropes Industry Website" ? (
-                  <a
-                    href={Project.link}
-                    className="text-blue-300 hover:underline text-lg font-medium"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                ) : (
-                  <a
-                    href={Project.link}
-                    className="text-blue-300 hover:underline text-lg font-medium"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Github Link
-                  </a>
-                )}
+                <a
+                  href={Project.link}
+                  className="inline-block text-base sm:text-lg font-medium text-blue-400 hover:text-blue-500 hover:underline transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {Project.title === "Tulsi Ropes Industry Website"
+                    ? "Visit Website"
+                    : "GitHub Link"}
+                </a>
               </div>
             </div>
-            {/* Divider Between Projects */}
-            {index < PROJECTS.length - 1 && <hr className="border-t border-neutral-700 my-8" />}
+
+            {index < PROJECTS.length - 1 && (
+              <hr className="border-t border-neutral-700 my-10" />
+            )}
           </React.Fragment>
         ))}
       </div>
