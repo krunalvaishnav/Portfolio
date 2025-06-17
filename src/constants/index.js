@@ -69,7 +69,7 @@ export const PROJECTS = [
     link: "https://www.tulsiropesindustry.com",
   },
   {
-    title: "IP Descovery and Open ports",
+    title: "IPDO - IP Discovery and Open ports",
     image: project1,
     description:
       "Enter your IP address and get detailed information about your location, internet service provider, and more.",
@@ -77,7 +77,7 @@ export const PROJECTS = [
     link: "https://github.com/krunalvaishnav1/IPDO-IP-discovery-and-open-ports-.git",
   },
   {
-    title: "Snapbite",
+    title: "Snapbite - A food delivery platform",
     image: project2,
     description:
       " Developed a full-featured food delivery website with product filtering, search, and cart functionality. Integrated secure user authentication, real-time food tracking, and an admin dashboard for managing orders, users and products.",
